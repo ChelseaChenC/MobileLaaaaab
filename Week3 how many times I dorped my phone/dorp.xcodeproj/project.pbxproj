@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDC5BCE7222475E100E91DCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC5BCE6222475E100E91DCA /* AppDelegate.swift */; };
+		FDC5BCE9222475E100E91DCA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC5BCE8222475E100E91DCA /* ViewController.swift */; };
+		FDC5BCEC222475E100E91DCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDC5BCEA222475E100E91DCA /* Main.storyboard */; };
+		FDC5BCEF222475E100E91DCA /* dorp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FDC5BCED222475E100E91DCA /* dorp.xcdatamodeld */; };
+		FDC5BCF1222475E300E91DCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDC5BCF0222475E300E91DCA /* Assets.xcassets */; };
+		FDC5BCF4222475E300E91DCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDC5BCF2222475E300E91DCA /* LaunchScreen.storyboard */; };
+		FDC5BCFC2224788600E91DCA /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC5BCFB2224788600E91DCA /* ListTableViewController.swift */; };
+		FDC5BCFE22247FAC00E91DCA /* DropEventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC5BCFD22247FAC00E91DCA /* DropEventTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FDC5BCE3222475E100E91DCA /* dorp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dorp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDC5BCE6222475E100E91DCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FDC5BCE8222475E100E91DCA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FDC5BCEB222475E100E91DCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDC5BCEE222475E100E91DCA /* dorp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = dorp.xcdatamodel; sourceTree = "<group>"; };
+		FDC5BCF0222475E300E91DCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDC5BCF3222475E300E91DCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FDC5BCF5222475E300E91DCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDC5BCFB2224788600E91DCA /* ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
+		FDC5BCFD22247FAC00E91DCA /* DropEventTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropEventTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDC5BCE0222475E100E91DCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDC5BCDA222475E100E91DCA = {
+			isa = PBXGroup;
+			children = (
+				FDC5BCE5222475E100E91DCA /* dorp */,
+				FDC5BCE4222475E100E91DCA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDC5BCE4222475E100E91DCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDC5BCE3222475E100E91DCA /* dorp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDC5BCE5222475E100E91DCA /* dorp */ = {
+			isa = PBXGroup;
+			children = (
+				FDC5BCFD22247FAC00E91DCA /* DropEventTableViewCell.swift */,
+				FDC5BCE6222475E100E91DCA /* AppDelegate.swift */,
+				FDC5BCE8222475E100E91DCA /* ViewController.swift */,
+				FDC5BCEA222475E100E91DCA /* Main.storyboard */,
+				FDC5BCFB2224788600E91DCA /* ListTableViewController.swift */,
+				FDC5BCF0222475E300E91DCA /* Assets.xcassets */,
+				FDC5BCF2222475E300E91DCA /* LaunchScreen.storyboard */,
+				FDC5BCF5222475E300E91DCA /* Info.plist */,
+				FDC5BCED222475E100E91DCA /* dorp.xcdatamodeld */,
+			);
+			path = dorp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDC5BCE2222475E100E91DCA /* dorp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDC5BCF8222475E300E91DCA /* Build configuration list for PBXNativeTarget "dorp" */;
+			buildPhases = (
+				FDC5BCDF222475E100E91DCA /* Sources */,
+				FDC5BCE0222475E100E91DCA /* Frameworks */,
+				FDC5BCE1222475E100E91DCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dorp;
+			productName = dorp;
+			productReference = FDC5BCE3222475E100E91DCA /* dorp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDC5BCDB222475E100E91DCA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Chelsea Chen CHEN";
+				TargetAttributes = {
+					FDC5BCE2222475E100E91DCA = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = FDC5BCDE222475E100E91DCA /* Build configuration list for PBXProject "dorp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDC5BCDA222475E100E91DCA;
+			productRefGroup = FDC5BCE4222475E100E91DCA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDC5BCE2222475E100E91DCA /* dorp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDC5BCE1222475E100E91DCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDC5BCF4222475E300E91DCA /* LaunchScreen.storyboard in Resources */,
+				FDC5BCF1222475E300E91DCA /* Assets.xcassets in Resources */,
+				FDC5BCEC222475E100E91DCA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDC5BCDF222475E100E91DCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDC5BCE9222475E100E91DCA /* ViewController.swift in Sources */,
+				FDC5BCEF222475E100E91DCA /* dorp.xcdatamodeld in Sources */,
+				FDC5BCFE22247FAC00E91DCA /* DropEventTableViewCell.swift in Sources */,
+				FDC5BCE7222475E100E91DCA /* AppDelegate.swift in Sources */,
+				FDC5BCFC2224788600E91DCA /* ListTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FDC5BCEA222475E100E91DCA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDC5BCEB222475E100E91DCA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FDC5BCF2222475E300E91DCA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDC5BCF3222475E300E91DCA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDC5BCF6222475E300E91DCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FDC5BCF7222475E300E91DCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDC5BCF9222475E300E91DCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LN4V7T95G6;
+				INFOPLIST_FILE = dorp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobilelab.dorp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDC5BCFA222475E300E91DCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LN4V7T95G6;
+				INFOPLIST_FILE = dorp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobilelab.dorp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDC5BCDE222475E100E91DCA /* Build configuration list for PBXProject "dorp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDC5BCF6222475E300E91DCA /* Debug */,
+				FDC5BCF7222475E300E91DCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDC5BCF8222475E300E91DCA /* Build configuration list for PBXNativeTarget "dorp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDC5BCF9222475E300E91DCA /* Debug */,
+				FDC5BCFA222475E300E91DCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FDC5BCED222475E100E91DCA /* dorp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FDC5BCEE222475E100E91DCA /* dorp.xcdatamodel */,
+			);
+			currentVersion = FDC5BCEE222475E100E91DCA /* dorp.xcdatamodel */;
+			path = dorp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FDC5BCDB222475E100E91DCA /* Project object */;
+}
